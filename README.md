@@ -3,6 +3,12 @@ A hybrid cybersecurity framework integrating Transformer-based Variational Autoe
 
 # FusionThreatNet
 
+> **Developed as part of the Machine Learning Trainee Program – Software & Systems Security Bootcamp**
+>
+> **National Institute of Technology Karnataka (NITK), Surathkal**  
+> **Industry Partner: Saviynt**
+>
+> A hybrid Transformer-VAE and Attention-Based Ensemble Framework for Cyber Attack Detection, Risk Assessment, and Alert Prioritization.
 > **Guided by Prof. Panigrahi Srikanth**
 > Department of Artificial Intelligence and Machine Learning (AI & ML)
 
