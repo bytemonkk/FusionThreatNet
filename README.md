@@ -285,6 +285,15 @@ FusionThreatNet addresses these challenges through a hybrid learning strategy th
 
 ---
 
+
+## Acknowledgement
+
+Special thanks to **Alwyn Roshan Pais, NITK Surathkal**, for initiating and organizing the **Machine Learning Trainee – Software & Systems Security Bootcamp** in collaboration with **Saviynt**.
+
+The knowledge, guidance, and industry exposure provided through this program played a significant role in inspiring and shaping the development of **FusionThreatNet**.
+
+---
+
 ## Goal
 
 Detect malicious activities accurately, assess cybersecurity risks, prioritize alerts, and provide actionable intelligence through a hybrid Transformer-VAE and Attention Fusion framework.
