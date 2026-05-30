@@ -12,7 +12,7 @@ A hybrid anomaly detection and cybersecurity risk assessment framework that comb
   <img src="assets/arch.png" width="100%">
 </p>
 
-<h1 align="center">CyberFusionNet</h1>
+<h1 align="center">FusionThreatNet</h1>
 
 <h3 align="center">
 Hybrid Transformer-VAE and Attention-Based Ensemble Framework for Cyber Attack Detection and Risk Assessment
@@ -29,7 +29,7 @@ Hybrid Transformer-VAE and Attention-Based Ensemble Framework for Cyber Attack D
 
 ## Overview
 
-CyberFusionNet is a hybrid anomaly detection framework designed to identify malicious activities and abnormal behavioral patterns in cybersecurity environments.
+FusionThreatNet is a hybrid anomaly detection framework designed to identify malicious activities and abnormal behavioral patterns in cybersecurity environments.
 
 The framework integrates:
 
@@ -101,7 +101,7 @@ Key components:
   <img src="assets/architecture.png" width="100%">
 </p>
 
-The proposed CyberFusionNet architecture consists of:
+The proposed FusionThreatNet architecture consists of:
 
 1. Data Preprocessing
 2. Traditional Anomaly Detection
@@ -221,7 +221,7 @@ Contains:
 ## Project Structure
 
 ```bash
-CyberFusionNet/
+FusionThreatNet/
 │
 ├── assets/
 │   ├── interface.png
@@ -283,11 +283,11 @@ CyberFusionNet/
 
 ---
 
-## Why CyberFusionNet?
+## Why FusionThreatNet?
 
 Modern cybersecurity environments generate massive volumes of heterogeneous data where malicious activities are often rare, evolving, and difficult to identify using traditional rule-based systems.
 
-CyberFusionNet addresses these challenges through a hybrid learning strategy that combines Transformer-VAE representation learning with multiple anomaly detection algorithms and attention-guided ensemble fusion. The framework not only detects attacks but also quantifies risk and prioritizes alerts, enabling more effective security monitoring and decision-making.
+FusionThreatNet addresses these challenges through a hybrid learning strategy that combines Transformer-VAE representation learning with multiple anomaly detection algorithms and attention-guided ensemble fusion. The framework not only detects attacks but also quantifies risk and prioritizes alerts, enabling more effective security monitoring and decision-making.
 
 ---
 
