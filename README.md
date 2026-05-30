@@ -50,15 +50,28 @@ The proposed framework combines deep representation learning with traditional an
 
 ## Dataset Information
 
-The framework operates on structured cybersecurity datasets containing:
+To evaluate the proposed FusionThreatNet framework, a synthetic cybersecurity dataset comprising **10,000 samples** was generated to simulate realistic enterprise security environments and anomalous attack scenarios.
+
+The dataset contains a diverse set of structured cybersecurity records, including:
 
 * Network Traffic Records
-* User Activity Logs
-* Security Events
-* System Monitoring Data
+* User Authentication and Activity Logs
+* Security Events and Alerts
+* System Monitoring Metrics
 * Mixed Numerical and Categorical Features
 
-Due to privacy and security considerations, datasets are not included in this repository.
+The generated dataset incorporates both normal and anomalous behavioral patterns to emulate real-world cybersecurity operations. Numerical attributes capture system and network statistics, while categorical attributes represent user actions, event types, protocols, authentication outcomes, and security-related activities.
+
+Each sample is associated with a binary target variable:
+
+| Label | Description                 |
+| ----- | --------------------------- |
+| 0     | Normal Activity             |
+| 1     | Attack / Anomalous Activity |
+
+The synthetic dataset was specifically designed to evaluate unsupervised anomaly detection, latent feature learning, risk assessment, and alert prioritization capabilities within the proposed FusionThreatNet framework.
+
+Due to repository size considerations, the complete dataset is not included in this repository.
 
 ---
 
