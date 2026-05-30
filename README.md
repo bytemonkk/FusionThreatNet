@@ -98,7 +98,7 @@ Key components:
 ## Proposed Architecture
 
 <p align="center">
-  <img src="assets/architecture.png" width="100%">
+  <img src="assets/proposedArch.png" width="100%">
 </p>
 
 The proposed FusionThreatNet architecture consists of:
