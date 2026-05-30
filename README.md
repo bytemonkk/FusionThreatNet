@@ -113,14 +113,6 @@ The proposed FusionThreatNet architecture consists of:
 
 ---
 
-## Workflow Pipeline
-
-<p align="center">
-  <img src="assets/workflow.png" width="100%">
-</p>
-
----
-
 ## Risk Scoring Strategy
 
 The framework converts anomaly scores into actionable cybersecurity intelligence.
