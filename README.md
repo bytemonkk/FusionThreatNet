@@ -119,41 +119,6 @@ The proposed FusionThreatNet architecture consists of:
   <img src="assets/workflow.png" width="100%">
 </p>
 
-### Pipeline Overview
-
-```text
-Input Data
-      │
-      ▼
-Data Preprocessing
-      │
-      ▼
-Isolation Forest
-One-Class SVM
-LOF
-      │
-      ▼
-Attention Fusion Network
-      │
-      ▼
-Attack Probability
-      │
-      ▼
-Transformer-VAE
-      │
-      ▼
-Latent Features
-      │
-      ▼
-Hybrid Anomaly Detection
-      │
-      ▼
-Risk Scoring
-      │
-      ▼
-Alert Generation
-```
-
 ---
 
 ## Risk Scoring Strategy
