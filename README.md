@@ -54,6 +54,15 @@ The proposed framework combines deep representation learning with traditional an
 
 ---
 
+## Academic & Industry Context
+
+This project was developed during the **Machine Learning Trainee – Software & Systems Security Bootcamp** organized by **NITK Surathkal** with **Saviynt** as the industry partner.
+
+The work focuses on applying machine learning, anomaly detection, representation learning, and cybersecurity risk analytics to detect malicious activities, assess risk levels, and prioritize security alerts in enterprise environments.
+
+
+---
+
 ## Dataset Information
 
 This project was developed as part of the **Machine Learning Trainee Program – Software & Systems Security Bootcamp conducted by NITK Surathkal in collaboration with Saviynt**.
