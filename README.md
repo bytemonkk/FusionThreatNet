@@ -3,6 +3,12 @@ A hybrid cybersecurity framework integrating Transformer-based Variational Autoe
 
 # FusionThreatNet
 
+> **Developed as part of the Machine Learning Trainee Program – Software & Systems Security Bootcamp**
+>
+> **National Institute of Technology Karnataka (NITK), Surathkal**  
+> **Industry Partner: Saviynt**
+>
+> A hybrid Transformer-VAE and Attention-Based Ensemble Framework for Cyber Attack Detection, Risk Assessment, and Alert Prioritization.
 > **Guided by Prof. Panigrahi Srikanth**
 > Department of Artificial Intelligence and Machine Learning (AI & ML)
 
@@ -48,17 +54,48 @@ The proposed framework combines deep representation learning with traditional an
 
 ---
 
+## Academic & Industry Context
+
+This project was developed during the **Machine Learning Trainee – Software & Systems Security Bootcamp** organized by **NITK Surathkal** with **Saviynt** as the industry partner.
+
+The work focuses on applying machine learning, anomaly detection, representation learning, and cybersecurity risk analytics to detect malicious activities, assess risk levels, and prioritize security alerts in enterprise environments.
+
+
+---
+
 ## Dataset Information
 
-The framework operates on structured cybersecurity datasets containing:
+This project was developed as part of the **Machine Learning Trainee Program – Software & Systems Security Bootcamp conducted by NITK Surathkal in collaboration with Saviynt**.
+
+To evaluate the proposed FusionThreatNet framework, a synthetic cybersecurity dataset comprising **10,000 samples** was generated to emulate realistic enterprise security environments, authentication activities, system monitoring events, and anomalous attack scenarios commonly encountered in modern cybersecurity infrastructures.
+
+The dataset contains structured cybersecurity records including:
 
 * Network Traffic Records
-* User Activity Logs
-* Security Events
-* System Monitoring Data
+* User Authentication and Activity Logs
+* Security Events and Alerts
+* System Monitoring Metrics
 * Mixed Numerical and Categorical Features
 
-Due to privacy and security considerations, datasets are not included in this repository.
+Each sample is associated with a binary target label:
+
+| Label | Description                 |
+| ----- | --------------------------- |
+| 0     | Normal Activity             |
+| 1     | Attack / Anomalous Activity |
+
+The dataset was specifically designed to evaluate:
+
+* Unsupervised Anomaly Detection
+* Transformer-VAE Feature Learning
+* Attention-Based Fusion
+* Risk Assessment
+* Alert Prioritization
+
+The generated data incorporates both normal operational behavior and simulated attack patterns to support cybersecurity analytics and anomaly detection research.
+
+Due to repository size limitations, the complete dataset is not included in this repository.
+
 
 ---
 
@@ -110,14 +147,6 @@ The proposed FusionThreatNet architecture consists of:
 5. Latent Space Anomaly Detection
 6. Risk Scoring Engine
 7. Alert Generation and Prioritization
-
----
-
-## Workflow Pipeline
-
-<p align="center">
-  <img src="assets/workflow.png" width="100%">
-</p>
 
 ---
 
@@ -253,6 +282,15 @@ FusionThreatNet/
 Modern cybersecurity environments generate massive volumes of heterogeneous data where malicious activities are often rare, evolving, and difficult to identify using traditional rule-based systems.
 
 FusionThreatNet addresses these challenges through a hybrid learning strategy that combines Transformer-VAE representation learning with multiple anomaly detection algorithms and attention-guided ensemble fusion. The framework not only detects attacks but also quantifies risk and prioritizes alerts, enabling more effective security monitoring and decision-making.
+
+---
+
+
+## Acknowledgement
+
+Special thanks to **Alwyn Roshan Pais, NITK Surathkal**, for initiating and organizing the **Machine Learning Trainee – Software & Systems Security Bootcamp** in collaboration with **Saviynt**.
+
+The knowledge, guidance, and industry exposure provided through this program played a significant role in inspiring and shaping the development of **FusionThreatNet**.
 
 ---
 
