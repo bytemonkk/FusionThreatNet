@@ -56,9 +56,11 @@ The proposed framework combines deep representation learning with traditional an
 
 ## Dataset Information
 
-To evaluate the proposed FusionThreatNet framework, a synthetic cybersecurity dataset comprising **10,000 samples** was generated to simulate realistic enterprise security environments and anomalous attack scenarios.
+This project was developed as part of the **Machine Learning Trainee Program – Software & Systems Security Bootcamp conducted by NITK Surathkal in collaboration with Saviynt**.
 
-The dataset contains a diverse set of structured cybersecurity records, including:
+To evaluate the proposed FusionThreatNet framework, a synthetic cybersecurity dataset comprising **10,000 samples** was generated to emulate realistic enterprise security environments, authentication activities, system monitoring events, and anomalous attack scenarios commonly encountered in modern cybersecurity infrastructures.
+
+The dataset contains structured cybersecurity records including:
 
 * Network Traffic Records
 * User Authentication and Activity Logs
@@ -66,18 +68,25 @@ The dataset contains a diverse set of structured cybersecurity records, includin
 * System Monitoring Metrics
 * Mixed Numerical and Categorical Features
 
-The generated dataset incorporates both normal and anomalous behavioral patterns to emulate real-world cybersecurity operations. Numerical attributes capture system and network statistics, while categorical attributes represent user actions, event types, protocols, authentication outcomes, and security-related activities.
-
-Each sample is associated with a binary target variable:
+Each sample is associated with a binary target label:
 
 | Label | Description                 |
 | ----- | --------------------------- |
 | 0     | Normal Activity             |
 | 1     | Attack / Anomalous Activity |
 
-The synthetic dataset was specifically designed to evaluate unsupervised anomaly detection, latent feature learning, risk assessment, and alert prioritization capabilities within the proposed FusionThreatNet framework.
+The dataset was specifically designed to evaluate:
 
-Due to repository size considerations, the complete dataset is not included in this repository.
+* Unsupervised Anomaly Detection
+* Transformer-VAE Feature Learning
+* Attention-Based Fusion
+* Risk Assessment
+* Alert Prioritization
+
+The generated data incorporates both normal operational behavior and simulated attack patterns to support cybersecurity analytics and anomaly detection research.
+
+Due to repository size limitations, the complete dataset is not included in this repository.
+
 
 ---
 
